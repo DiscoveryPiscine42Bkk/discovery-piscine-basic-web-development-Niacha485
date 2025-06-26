@@ -1,0 +1,57 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax1 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy2w5tK_hebzmLSWMVGytecuEY0iztiFPN4A&s);
+}
+
+.parallax2 {
+    background-image: url(https://i.pinimg.com/736x/f6/e8/48/f6e848982aa57241ed95ffad77d78378.jpg);
+}
+
+.black {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message1 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    -webkit-text-stroke: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 1px;
+    text-decoration: underline rgb(0, 0, 0);
+}
+
+.message2 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.message3 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    -webkit-text-stroke: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 1px;
+    text-decoration: underline rgb(0, 0, 0);
+}
